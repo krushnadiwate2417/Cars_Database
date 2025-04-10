@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 
-const allowedOrigins = ['http://localhost:5173', 'https://feedbackcolector.netlify.app'];
+const allowedOrigins = ['http://localhost:5173', 'https://cardealer24.netlify.app'];
 
 app.use(cors({
   origin: function (origin, callback) {
